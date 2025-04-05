@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import countryRoutes from './routes/countryRoutes';
+import countryRoutes from './routes/countryRoutes.js';
 
 const app = express();
 const PORT = 3001;

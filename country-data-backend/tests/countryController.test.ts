@@ -16,7 +16,6 @@ app.get('/search', controller.searchCountries);
 const mockData = [
   {
     name: 'India',
-    flag: '🇮🇳',
     region: 'Asia',
     alpha2Code: 'IN',
     capital: ['New Delhi'],
@@ -27,7 +26,6 @@ const mockData = [
   },
   {
     name: 'France',
-    flag: '🇫🇷',
     region: 'Europe',
     alpha2Code: 'FR',
     capital: ['Paris'],
